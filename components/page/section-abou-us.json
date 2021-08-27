@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_section_abou_us",
+  "info": {
+    "name": "sectionAbouUs",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "authors": {
+      "collection": "author"
+    }
+  }
+}
