@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_section_pricings",
+  "info": {
+    "name": "sectionPricing",
+    "icon": "box-open"
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "required": true,
+      "type": "integer"
+    },
+    "numberInstallments": {
+      "required": true,
+      "type": "integer"
+    },
+    "priceInstallment": {
+      "type": "integer",
+      "required": true
+    },
+    "benefits": {
+      "type": "richtext",
+      "default": "Create items as bullet items",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "page.button"
+    }
+  }
+}
