@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_page_section_teches",
+  "collectionName": "components_page_section_concepts",
   "info": {
-    "name": "sectionTech",
-    "icon": "code",
-    "description": ""
+    "name": "sectionConcepts",
+    "icon": "align-justify"
   },
   "options": {},
   "attributes": {
@@ -11,10 +10,10 @@
       "type": "string",
       "required": true
     },
-    "techIcon": {
+    "concepts": {
       "type": "component",
       "repeatable": true,
-      "component": "page.tech-icon",
+      "component": "page.concepts",
       "required": true
     }
   }
