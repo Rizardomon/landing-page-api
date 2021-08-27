@@ -68,6 +68,12 @@
       "repeatable": false,
       "component": "page.section-abou-us",
       "required": true
+    },
+    "sectionReviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviews",
+      "required": true
     }
   }
 }
